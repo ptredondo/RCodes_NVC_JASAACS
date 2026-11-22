@@ -12,12 +12,12 @@ The contents of `01 EEG Analysis.R` are as follows:
 2. Loading and preprocessing EEG data and defining the regions of interest (ROIs).
 3. EEG analysis using the proposed NVC framework, including:
    - Estimation of region-to-region functional connectivity.
-   - Testing for differences in connectivity across diagnostic groups.
+   - Testing for differences in connectivity across patient groups (AD, CN and FTD).
    - Sensitivity analysis on the choice of sampling rate, standardization, and block length.
 4. EEG analysis using pairwise band coherence (PBC), Kendall coherence (KenCoh), and the nonspectral T measure.
 5. Estimation and group comparisons of relative band power (RBP).
 6. Visualization of functional connectivity results, including the results of the sensitivity analyses.
-7. Classification of diagnostic groups using functional connectivity and relative band power as features, including:
+7. Classification of CN vs. AD and CN vs. FTD using functional connectivity and relative band power as features, including:
    - Support vector machines (SVM) with different kernels.
    - k-nearest neighbors (k-NN).
    - Random forests (RF).

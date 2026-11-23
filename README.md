@@ -1,4 +1,4 @@
-# RCodes_NVC_JASAACS
+# RCodes_NVC
 
 This repository contains the R codes needed to reproduce key results of the paper entitled "Nonlinear Coherence for Vector Time Series: Defining Region-to-Region Functional Brain Connectivity" by Paolo Victor Redondo, Raphaël Huser and Hernando Ombao.
 
